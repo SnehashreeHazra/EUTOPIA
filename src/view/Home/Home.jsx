@@ -9,12 +9,12 @@ const Home = () => {
         <div className="uni-container">
           <div className="header">
             <img src={logo} alt="" />
-            <div>
+            <div className="navbar">
               <p>Home</p>
               <p>About Us</p>
               <p>Pricing</p>
             </div>
-            <button>Get Free Demo</button>
+            <button className="header-btn">Get Free Demo</button>
           </div>
         </div>
       </div>
