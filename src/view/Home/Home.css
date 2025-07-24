@@ -1,0 +1,10 @@
+.uni-container {
+  width: 100%;
+  max-width: 80%;
+  min-width: 80%;
+  margin: 0 auto;
+}
+.home-banner {
+  background-image: url('../../assets/Group 1171277293.png');
+  background-position: c;
+}
