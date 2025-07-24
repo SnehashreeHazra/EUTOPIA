@@ -65,3 +65,49 @@
   border-radius: 20px;
   cursor: pointer;
 }
+.platform-helps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+.platform-help-heading {
+  color: #3f4453;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+}
+.platform-help-subheading {
+  color: #3f4453;
+  margin-top: 20px;
+  text-align: center;
+  width: 48%;
+  font-size: 15px;
+}
+.platform-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.platform-card-div {
+  width: 100%;
+  max-width: 23%;
+  min-width: 23%;
+  border-radius: 10px;
+}
+.platform-div1 {
+  background-image: url("../../assets/Group 39770 (1).png");
+  background-position: center;
+  background-size: cover;
+}
+.platform-div2 {
+  background-image: url("../../assets/Group 39770.png");
+  background-position: center;
+  background-size: cover;
+}
+.platform-div3 {
+  background-image: url("../../assets/Group 39769.png");
+  background-position: center;
+  background-size: cover;
+}
