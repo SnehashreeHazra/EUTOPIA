@@ -17,14 +17,14 @@ const Home = () => {
             <button className="header-btn">Get Free Demo</button>
           </div>
           <div className="home-content">
-            <p>
+            <p className="banner-heading">
               Eutopia school manage ment system—the only software you'll need
             </p>
-            <p>
+            <p className="banner-subheading">
               Source, screen, and place top talent faster with automation that
               works like your best recruiter.
             </p>
-            <div>
+            <div className="banner-buttons">
               <button>Get Early Access</button>
               <button>Request a Demo</button>
             </div>

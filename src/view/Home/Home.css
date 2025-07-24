@@ -39,3 +39,29 @@
 .header-logo {
   width: 140px;
 }
+.banner-heading {
+  font-size: 50px;
+  width: 50%;
+  color: #3f4453;
+  font-weight: 600;
+  margin-top: 120px;
+}
+.banner-subheading {
+  color: #9fa5ad;
+  width: 40%;
+  margin-top: 15px;
+}
+.banner-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 20px;
+}
+.banner-buttons button {
+  background-color: #136aef;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
