@@ -5,6 +5,7 @@ import timeIcon from "../../assets/Group 1171277296.png";
 import solutionIcon from "../../assets/Group 1171277297.png";
 import fileIcon from "../../assets/Group 1171277298.png";
 import coinIcon from "../../assets/Group 1171277299.png";
+import whiteArrow from "../../assets/Group 1171277294.png";
 
 const Home = () => {
   return (
@@ -46,23 +47,29 @@ const Home = () => {
           <div className="platform-cards">
             <div className="platform-card-div platform-div1">
               <img src={timeIcon} alt="" />
-              <p>Save Time</p>
+              <p className="platform-card-div-heading">Save Time</p>
               <p>Lorem Ipsum is simply dummy text of the printing</p>
+              <img className="arrow" src={whiteArrow} alt="" />
             </div>
             <div className="platform-card-div platform-div2">
               <img src={solutionIcon} alt="" />
-              <p>Save Time</p>
+              <p className="platform-card-div-heading">
+                Your-one-stop-solution
+              </p>
               <p>Lorem Ipsum is simply dummy text of the printing</p>
+              <img className="arrow" src={whiteArrow} alt="" />
             </div>
             <div className="platform-card-div platform-div3">
               <img src={fileIcon} alt="" />
-              <p>Save Time</p>
+              <p className="platform-card-div-heading">Enhance workflow</p>
               <p>Lorem Ipsum is simply dummy text of the printing</p>
+              <img className="arrow" src={whiteArrow} alt="" />
             </div>
             <div className="platform-card-div platform-div3">
               <img src={coinIcon} alt="" />
-              <p>Save Time</p>
+              <p className="platform-card-div-heading">Increase Your Revenue</p>
               <p>Lorem Ipsum is simply dummy text of the printing</p>
+              <img className="arrow" src={whiteArrow} alt="" />
             </div>
           </div>
         </div>
