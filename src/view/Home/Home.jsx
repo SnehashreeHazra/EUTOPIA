@@ -1,18 +1,25 @@
-import React from 'react'
-import './Home.css'
+import React from "react";
+import "./Home.css";
+import logo from "../../assets/Eutopia-logo 1.png"
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className="home">
       <div className="home-banner">
         <div className="uni-container">
           <div className="header">
-            <img src="" alt="" />
+            <img src={logo} alt="" />
+            <div>
+              <p>Home</p>
+              <p>About Us</p>
+              <p>Pricing</p>
+            </div>
+            <button>Get Free Demo</button>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
