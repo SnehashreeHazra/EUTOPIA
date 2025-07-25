@@ -14,10 +14,12 @@ import managementSoftwareImg1 from "../../assets/Group 11712773001.png";
 import managementSoftwareImg2 from "../../assets/Group 1171275737.png";
 import managementSoftwareImg3 from "../../assets/Group 1171277301.png";
 import managementUser from "../../assets/mdi_user.png";
+import laptopBackgroundImg from "../../assets/Group 1171277295.png";
+import laptopImg from "../../assets/Group 1171276868.png";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className="home">
       <div className="home-banner">
@@ -26,7 +28,7 @@ const Home = () => {
             <img className="header-logo" src={logo} alt="" />
             <div className="navbar">
               <p className="active">Home</p>
-              <p onClick={()=>navigate('/about-us')}>About Us</p>
+              <p onClick={() => navigate("/about-us")}>About Us</p>
               <p>Pricing</p>
             </div>
             <button className="header-btn">Get Free Demo</button>
@@ -94,28 +96,51 @@ const Home = () => {
           <div className="software-features">
             <div className="software-feature">
               <img className="management-user" src={managementUser} alt="" />
-              <img className="feature-one" src={managementSoftwareImg3} alt="" />
+              <img
+                className="feature-one"
+                src={managementSoftwareImg3}
+                alt=""
+              />
               <div>
                 <p className="feature-heading">1. Stay Updated</p>
-                <p className="feature-desc">Lorem Ipsum is simply dummy text of the printing and</p>
+                <p className="feature-desc">
+                  Lorem Ipsum is simply dummy text of the printing and
+                </p>
               </div>
             </div>
             <div className="software-feature">
-              <img className="feature-two" src={managementSoftwareImg1} alt="" />
+              <img
+                className="feature-two"
+                src={managementSoftwareImg1}
+                alt=""
+              />
               <div>
                 <p className="feature-heading">2. Attendance</p>
-                <p className="feature-desc">Lorem Ipsum is simply dummy text of the printing and</p>
+                <p className="feature-desc">
+                  Lorem Ipsum is simply dummy text of the printing and
+                </p>
               </div>
             </div>
             <div className="software-feature">
-              <img className="feature-three" src={managementSoftwareImg2} alt="" />
+              <img
+                className="feature-three"
+                src={managementSoftwareImg2}
+                alt=""
+              />
               <div>
                 <p className="feature-heading">3. Track Learning</p>
-                <p className="feature-desc">Lorem Ipsum is simply dummy text of the printing and</p>
+                <p className="feature-desc">
+                  Lorem Ipsum is simply dummy text of the printing and
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="laptop-image-background">
+        <img src={laptopBackgroundImg} alt="" />
+        <img className="laptop-img" src={laptopImg} alt="" />
       </div>
 
       <div className="snapshot-section">
