@@ -6,6 +6,9 @@ import solutionIcon from "../../assets/Group 1171277297.png";
 import fileIcon from "../../assets/Group 1171277298.png";
 import coinIcon from "../../assets/Group 1171277299.png";
 import whiteArrow from "../../assets/Group 1171277294.png";
+import opinionCardImg1 from "../../assets/Rectangle 21.png";
+import opinionCardImg2 from "../../assets/Rectangle 18.png";
+import opinionCardUser from "../../assets/Ellipse 3.png";
 
 const Home = () => {
   return (
@@ -70,6 +73,31 @@ const Home = () => {
               <p className="platform-card-div-heading">Increase Your Revenue</p>
               <p>Lorem Ipsum is simply dummy text of the printing</p>
               <img className="arrow" src={whiteArrow} alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div className="your-opinion">
+          <p>Your opinion is everything</p>
+          <p>14,000+ Educators in 1,800 schools in 12+countries</p>
+          <div className="opinion-cards-wrapper">
+            <div className="opinion-card">
+              <img src={opinionCardImg2} alt="" />
+            </div>
+            <div className="opinion-card">
+              <div className="opinion-user">
+                <img src={opinionCardUser} alt="" />
+                <div>
+                  <p>Name Surname</p>
+                  <p>Location</p>
+                </div>
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. 
+              </p>
             </div>
           </div>
         </div>
