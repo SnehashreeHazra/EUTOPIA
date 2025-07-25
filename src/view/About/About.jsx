@@ -52,22 +52,26 @@ const About = () => {
         </div>
 
         <div className="floating-div">
-          <p>The Leading School Management System</p>
-          <p>Serving The Sector for Over a Decade</p>
-          <div>
+          <p className="floating-div-heading">
+            The Leading School Management System
+          </p>
+          <p className="floating-div-big-text">
+            Serving The Sector for Over a Decade
+          </p>
+          <div className="floating-container">
             <div>
-              <p>10+</p>
-              <p>Years of content</p>
+              <p className="number">10+</p>
+              <p className="years-of-content">Years of content</p>
             </div>
             <div className="separate-line"></div>
             <div>
-              <p>10+</p>
-              <p>Years supporting you</p>
+              <p className="number">10+</p>
+              <p className="years-of-content">Years supporting you</p>
             </div>
             <div className="separate-line"></div>
             <div>
-              <p>10+</p>
-              <p>Countries served</p>
+              <p className="number">10+</p>
+              <p className="years-of-content">Countries served</p>
             </div>
           </div>
         </div>
