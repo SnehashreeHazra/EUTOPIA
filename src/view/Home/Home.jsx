@@ -78,26 +78,54 @@ const Home = () => {
         </div>
 
         <div className="your-opinion">
-          <p>Your opinion is everything</p>
-          <p>14,000+ Educators in 1,800 schools in 12+countries</p>
+          <p className="your-opinion-heading">Your opinion is everything</p>
+          <p className="opinion-subheading">
+            14,000+ Educators in 1,800 schools in 12+countries
+          </p>
           <div className="opinion-cards-wrapper">
             <div className="opinion-card">
-              <img src={opinionCardImg2} alt="" />
+              <img className="opinion-card-img" src={opinionCardImg2} alt="" />
             </div>
-            <div className="opinion-card">
+            <div className="opinion-card1">
               <div className="opinion-user">
-                <img src={opinionCardUser} alt="" />
-                <div>
-                  <p>Name Surname</p>
-                  <p>Location</p>
+                <img
+                  className="opinion-user-img"
+                  src={opinionCardUser}
+                  alt=""
+                />
+                <div className="opinion-user-name-div">
+                  <p className="opinion-user-name">Name Surname</p>
+                  <p className="opinion-user-location">Location</p>
                 </div>
               </div>
-              <p>
+              <p className="opinion-user-desc">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book. 
               </p>
+            </div>
+            <div className="opinion-card1">
+              <div className="opinion-user">
+                <img
+                  className="opinion-user-img"
+                  src={opinionCardUser}
+                  alt=""
+                />
+                <div className="opinion-user-name-div">
+                  <p className="opinion-user-name">Name Surname</p>
+                  <p className="opinion-user-location">Location</p>
+                </div>
+              </div>
+              <p className="opinion-user-desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. 
+              </p>
+            </div>
+            <div className="opinion-card">
+              <img className="opinion-card-img" src={opinionCardImg1} alt="" />
             </div>
           </div>
         </div>
