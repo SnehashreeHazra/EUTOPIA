@@ -36,6 +36,43 @@ const About = () => {
         </div>
       </div>
 
+      <div className="about-us">
+        <p className="about-us-heading">About Us</p>
+
+        <div className="about-us-text">
+          <p>
+            Managing a school is no easy task. The sheer magnitude of processes
+            involved can be overwhelming, especially if they're disconnected.
+            Eutopia School management app brings all of those processes into a
+            single application, where you can manage them as one long chain
+            rather than a hundred disconnected ones. Keep students, teachers,
+            and parents on the same page with customized dashboards and
+            email/SMS notifications on web and mobile.
+          </p>
+        </div>
+
+        <div className="floating-div">
+          <p>The Leading School Management System</p>
+          <p>Serving The Sector for Over a Decade</p>
+          <div>
+            <div>
+              <p>10+</p>
+              <p>Years of content</p>
+            </div>
+            <div className="separate-line"></div>
+            <div>
+              <p>10+</p>
+              <p>Years supporting you</p>
+            </div>
+            <div className="separate-line"></div>
+            <div>
+              <p>10+</p>
+              <p>Countries served</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="uni-container">
         <div className="experience">
           <p className="experience-heading">Experience you can rely on</p>
