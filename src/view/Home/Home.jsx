@@ -76,40 +76,42 @@ const Home = () => {
       </div>
 
       <div className="footer">
-        <p>Get A Free Demo</p>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
-        </p>
-        <div className="footer-search">
-          <input type="text" placeholder="Your work email" />
-          <div>Get Early Access</div>
-        </div>
-        <div className="footer-links-wrapper">
-          <div className="quick-links">
-            <p>Quick Links</p>
-            <p>Home</p>
-            <p>About Us</p>
-            <p>Pricing</p>
+        <div className="uni-container">
+          <p className="footer-header">Get A Free Demo</p>
+          <p className="footer-small-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+          </p>
+          <div className="footer-search">
+            <input type="text" placeholder="Your work email" />
+            <div>Get Early Access</div>
           </div>
-          <div className="quick-links">
-            <p>Product</p>
-            <p>Home</p>
-            <p>About Us</p>
-            <p>Pricing</p>
-          </div>
-          <div className="quick-links">
-            <p>Contact Us</p>
-            <p>Home</p>
-            <p>About Us</p>
-            <p>Pricing</p>
-          </div>
-          <div className="quick-links">
-            <p>Resources</p>
-            <p>Home</p>
-            <p>About Us</p>
-            <p>Pricing</p>
+          <div className="footer-links-wrapper">
+            <div className="quick-links">
+              <p>Quick Links</p>
+              <p>Home</p>
+              <p>About Us</p>
+              <p>Pricing</p>
+            </div>
+            <div className="quick-links">
+              <p>Product</p>
+              <p>Home</p>
+              <p>About Us</p>
+              <p>Pricing</p>
+            </div>
+            <div className="quick-links">
+              <p>Contact Us</p>
+              <p>Home</p>
+              <p>About Us</p>
+              <p>Pricing</p>
+            </div>
+            <div className="quick-links">
+              <p>Resources</p>
+              <p>Home</p>
+              <p>About Us</p>
+              <p>Pricing</p>
+            </div>
           </div>
         </div>
       </div>
