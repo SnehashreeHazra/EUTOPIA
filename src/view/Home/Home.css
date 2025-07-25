@@ -132,7 +132,6 @@
   margin-top: 30px;
 }
 
-
 /* *********************Footer CSS********************* */
 .footer {
   background-image: url("../../assets/image (7).png");
@@ -144,7 +143,7 @@
   font-size: 30px;
   color: #fff;
   font-weight: 600;
-  padding-top: 80px;
+  padding-top: 110px;
 }
 .footer-small-text {
   text-align: center;
@@ -152,4 +151,63 @@
   color: #fff;
   width: 50%;
   margin: 20px auto;
+}
+.footer-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #96bbf4;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+.footer-search input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.get-early-btn {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #4e4dff;
+}
+.footer-links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+.quick-links {
+  width: 100%;
+  max-width: 15%;
+  min-width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 25px;
+  color: #fff;
+}
+.quick-links-heading {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer-link {
+  color: #c8c8d9;
+  font-size: 15px;
+  cursor: pointer;
+}
+.copyright-div {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.copyright-div img {
+  width: 150px;
 }
