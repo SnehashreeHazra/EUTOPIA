@@ -14,8 +14,10 @@ import managementSoftwareImg1 from "../../assets/Group 11712773001.png";
 import managementSoftwareImg2 from "../../assets/Group 1171275737.png";
 import managementSoftwareImg3 from "../../assets/Group 1171277301.png";
 import managementUser from "../../assets/mdi_user.png";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate()
   return (
     <div className="home">
       <div className="home-banner">
@@ -24,7 +26,7 @@ const Home = () => {
             <img className="header-logo" src={logo} alt="" />
             <div className="navbar">
               <p className="active">Home</p>
-              <p>About Us</p>
+              <p onClick={()=>navigate('/about-us')}>About Us</p>
               <p>Pricing</p>
             </div>
             <button className="header-btn">Get Free Demo</button>
