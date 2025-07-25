@@ -1,9 +1,37 @@
-.experience{
+.experience {
   margin: 80px 0;
 }
 .experience-heading {
   text-align: center;
-  color: #3F4453;
+  color: #3f4453;
   font-size: 40px;
   font-weight: 600;
+}
+.experience-cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.experience-card {
+  width: 100%;
+  max-width: 30%;
+  min-width: 30%;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #0f2b6b, #2584ef);
+  color: #fff;
+  padding: 30px 10px;
+  height: 250px;
+}
+.experience-card-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.experience-card-subheading {
+  font-size: 15px;
+  font-weight: 600;
+}
+.experience-card-desc {
+  margin-top: 20px;
+  font-size: 13px;
 }

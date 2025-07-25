@@ -41,9 +41,11 @@ const About = () => {
           <p className="experience-heading">Experience you can rely on</p>
           <div className="experience-cards-wrapper">
             <div className="experience-card">
-              <p>Trusted Partners</p>
-              <p>Trusted by industry experts</p>
-              <p>
+              <p className="experience-card-heading">Trusted Partners</p>
+              <p className="experience-card-subheading">
+                Trusted by industry experts
+              </p>
+              <p className="experience-card-desc">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
@@ -51,9 +53,9 @@ const About = () => {
               </p>
             </div>
             <div className="experience-card">
-              <p>Personalized Support</p>
-              <p>1-on-1 Support</p>
-              <p>
+              <p className="experience-card-heading">Personalized Support</p>
+              <p className="experience-card-subheading">1-on-1 Support</p>
+              <p className="experience-card-desc">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
@@ -61,9 +63,11 @@ const About = () => {
               </p>
             </div>
             <div className="experience-card">
-              <p>Global Offices</p>
-              <p>Trusted by industry experts</p>
-              <p>
+              <p className="experience-card-heading">Global Offices</p>
+              <p className="experience-card-subheading">
+                Trusted by industry experts
+              </p>
+              <p className="experience-card-desc">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
