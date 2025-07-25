@@ -38,13 +38,13 @@ const About = () => {
 
       <div className="uni-container">
         <div className="experience">
-          <p>Experience you can rely on</p>
+          <p className="experience-heading">Experience you can rely on</p>
           <div className="experience-cards-wrapper">
             <div className="experience-card">
               <p>Trusted Partners</p>
               <p>Trusted by industry experts</p>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
+                Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
@@ -54,7 +54,7 @@ const About = () => {
               <p>Personalized Support</p>
               <p>1-on-1 Support</p>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
+                Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
@@ -64,7 +64,7 @@ const About = () => {
               <p>Global Offices</p>
               <p>Trusted by industry experts</p>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
+                Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
