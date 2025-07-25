@@ -10,6 +10,10 @@ import opinionCardImg1 from "../../assets/Rectangle 21.png";
 import opinionCardImg2 from "../../assets/Rectangle 18.png";
 import opinionCardUser from "../../assets/Ellipse 3.png";
 import opinionVectorImg from "../../assets/Vector-4.svg";
+import managementSoftwareImg1 from "../../assets/Group 11712773001.png";
+import managementSoftwareImg2 from "../../assets/Group 1171275737.png";
+import managementSoftwareImg3 from "../../assets/Group 1171277301.png";
+import managementUser from "../../assets/mdi_user.png";
 
 const Home = () => {
   return (
@@ -75,6 +79,38 @@ const Home = () => {
               <p className="platform-card-div-heading">Increase Your Revenue</p>
               <p>Lorem Ipsum is simply dummy text of the printing</p>
               <img className="arrow" src={whiteArrow} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="uni-conatainer">
+        <div className="management-software">
+          <p className="management-heading">
+            Use our School Management Software
+          </p>
+          <div className="software-features">
+            <div className="software-feature">
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <div>
+                <p>1. Stay Updated</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and</p>
+              </div>
+            </div>
+            <div className="software-feature">
+              <img src="" alt="" />
+              <div>
+                <p>2. Attendance</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and</p>
+              </div>
+            </div>
+            <div className="software-feature">
+              <img src="" alt="" />
+              <div>
+                <p>3. Track Learning</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and</p>
+              </div>
             </div>
           </div>
         </div>

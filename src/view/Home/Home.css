@@ -261,6 +261,26 @@
   font-weight: 300;
   line-height: 25px;
 }
+.management-software {
+  margin: 80px 0;
+}
+.management-heading{
+  text-align: center;
+  color: #3f4453;
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+.software-features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.software-feature {
+  width: 100%;
+  max-width: 23%;
+  min-width: 23%;
+}
 
 /* *********************Footer CSS********************* */
 .footer {
