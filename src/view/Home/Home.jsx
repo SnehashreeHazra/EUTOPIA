@@ -84,32 +84,32 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="uni-conatainer">
+      <div className="uni-container">
         <div className="management-software">
           <p className="management-heading">
             Use our School Management Software
           </p>
           <div className="software-features">
             <div className="software-feature">
-              <img src="" alt="" />
-              <img src="" alt="" />
+              <img className="management-user" src={managementUser} alt="" />
+              <img className="feature-one" src={managementSoftwareImg3} alt="" />
               <div>
-                <p>1. Stay Updated</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and</p>
+                <p className="feature-heading">1. Stay Updated</p>
+                <p className="feature-desc">Lorem Ipsum is simply dummy text of the printing and</p>
               </div>
             </div>
             <div className="software-feature">
-              <img src="" alt="" />
+              <img className="feature-two" src={managementSoftwareImg1} alt="" />
               <div>
-                <p>2. Attendance</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and</p>
+                <p className="feature-heading">2. Attendance</p>
+                <p className="feature-desc">Lorem Ipsum is simply dummy text of the printing and</p>
               </div>
             </div>
             <div className="software-feature">
-              <img src="" alt="" />
+              <img className="feature-three" src={managementSoftwareImg2} alt="" />
               <div>
-                <p>3. Track Learning</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and</p>
+                <p className="feature-heading">3. Track Learning</p>
+                <p className="feature-desc">Lorem Ipsum is simply dummy text of the printing and</p>
               </div>
             </div>
           </div>
