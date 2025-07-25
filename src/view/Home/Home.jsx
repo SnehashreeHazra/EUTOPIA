@@ -9,6 +9,7 @@ import whiteArrow from "../../assets/Group 1171277294.png";
 import opinionCardImg1 from "../../assets/Rectangle 21.png";
 import opinionCardImg2 from "../../assets/Rectangle 18.png";
 import opinionCardUser from "../../assets/Ellipse 3.png";
+import opinionVectorImg from "../../assets/Vector-4.svg";
 
 const Home = () => {
   return (
@@ -39,6 +40,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <div className="uni-container">
         <div className="platform-helps">
           <p className="platform-help-heading">The Ways Our Platform Helps</p>
@@ -76,57 +78,112 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="your-opinion">
-          <p className="your-opinion-heading">Your opinion is everything</p>
-          <p className="opinion-subheading">
-            14,000+ Educators in 1,800 schools in 12+countries
+      <div className="snapshot-section">
+        <img className="opinion-svg" src={opinionVectorImg} alt="" />
+        <div className="uni-container">
+          <p className="snapshot-heading">
+            A snapshot to some of our core features that make collaboration
+            easier.
           </p>
-          <div className="opinion-cards-wrapper">
-            <div className="opinion-card">
-              <img className="opinion-card-img" src={opinionCardImg2} alt="" />
-            </div>
-            <div className="opinion-card1">
-              <div className="opinion-user">
-                <img
-                  className="opinion-user-img"
-                  src={opinionCardUser}
-                  alt=""
-                />
-                <div className="opinion-user-name-div">
-                  <p className="opinion-user-name">Name Surname</p>
-                  <p className="opinion-user-location">Location</p>
-                </div>
-              </div>
-              <p className="opinion-user-desc">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. 
+          <div className="snapshot-cards-wrapper">
+            <div className="snapshot-card">
+              <p className="snapshot-card-heading">
+                Admin: Run your school, right from this school management
+                software
+              </p>
+              <p className="snapshot-card-desc">
+                Manage student, teacher, and parent details from one place using
+                our school management software. Plan out the academic year on
+                administrative calendars, get personalized course timetables for
+                every grade and faculty member, organize PTAs, and more.
               </p>
             </div>
-            <div className="opinion-card1">
-              <div className="opinion-user">
-                <img
-                  className="opinion-user-img"
-                  src={opinionCardUser}
-                  alt=""
-                />
-                <div className="opinion-user-name-div">
-                  <p className="opinion-user-name">Name Surname</p>
-                  <p className="opinion-user-location">Location</p>
-                </div>
-              </div>
-              <p className="opinion-user-desc">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. 
+            <div className="snapshot-card">
+              <p className="snapshot-card-heading">
+                Admin: Run your school, right from this school management
+                software
+              </p>
+              <p className="snapshot-card-desc">
+                Manage student, teacher, and parent details from one place using
+                our school management software. Plan out the academic year on
+                administrative calendars, get personalized course timetables for
+                every grade and faculty member, organize PTAs, and more.
               </p>
             </div>
-            <div className="opinion-card">
-              <img className="opinion-card-img" src={opinionCardImg1} alt="" />
+            <div className="snapshot-card">
+              <p className="snapshot-card-heading">
+                Admin: Run your school, right from this school management
+                software
+              </p>
+              <p className="snapshot-card-desc">
+                Manage student, teacher, and parent details from one place using
+                our school management software. Plan out the academic year on
+                administrative calendars, get personalized course timetables for
+                every grade and faculty member, organize PTAs, and more.
+              </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="your-opinion">
+        <p className="your-opinion-heading">Your opinion is everything</p>
+        <p className="opinion-subheading">
+          14,000+ Educators in 1,800 schools in 12+countries
+        </p>
+        <div className="opinion-cards-wrapper">
+          <div className="opinion-card1">
+            <div className="opinion-user">
+              <img className="opinion-user-img" src={opinionCardUser} alt="" />
+              <div className="opinion-user-name-div">
+                <p className="opinion-user-name">Name Surname</p>
+                <p className="opinion-user-location">Location</p>
+              </div>
+            </div>
+            <p className="opinion-user-desc">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. 
+            </p>
+          </div>
+          <div className="opinion-card">
+            <img className="opinion-card-img" src={opinionCardImg2} alt="" />
+          </div>
+          <div className="opinion-card1">
+            <div className="opinion-user">
+              <img className="opinion-user-img" src={opinionCardUser} alt="" />
+              <div className="opinion-user-name-div">
+                <p className="opinion-user-name">Name Surname</p>
+                <p className="opinion-user-location">Location</p>
+              </div>
+            </div>
+            <p className="opinion-user-desc">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. 
+            </p>
+          </div>
+          <div className="opinion-card1">
+            <div className="opinion-user">
+              <img className="opinion-user-img" src={opinionCardUser} alt="" />
+              <div className="opinion-user-name-div">
+                <p className="opinion-user-name">Name Surname</p>
+                <p className="opinion-user-location">Location</p>
+              </div>
+            </div>
+            <p className="opinion-user-desc">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. 
+            </p>
+          </div>
+          <div className="opinion-card">
+            <img className="opinion-card-img" src={opinionCardImg1} alt="" />
           </div>
         </div>
       </div>
