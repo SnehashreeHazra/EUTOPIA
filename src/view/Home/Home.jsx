@@ -138,6 +138,14 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="school-management">
+      <div className="uni-container">
+        <p className="management-heading">The School Management</p>
+        <p className="school-management-subheading">Source, screen, and place top talent faster with automation that works like your best recruiter.</p>
+        <button className="download-app-btn">Download This App</button>
+      </div>
+      </div>
+
       <div className="laptop-image-background">
         <img src={laptopBackgroundImg} alt="" />
         <img className="laptop-img" src={laptopImg} alt="" />
