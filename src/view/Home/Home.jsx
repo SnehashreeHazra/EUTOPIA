@@ -16,6 +16,7 @@ import managementSoftwareImg3 from "../../assets/Group 1171277301.png";
 import managementUser from "../../assets/mdi_user.png";
 import laptopBackgroundImg from "../../assets/Group 1171277295.png";
 import laptopImg from "../../assets/Group 1171276868.png";
+import 
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
@@ -145,6 +146,10 @@ const Home = () => {
         <div className="button-div">
         <button className="download-app-btn">Download This App</button>
         </div>
+        <div className="animated-leptop">
+          <img src={} alt="" />
+        </div>
+        <img src={} alt="" />
       </div>
       </div>
 
