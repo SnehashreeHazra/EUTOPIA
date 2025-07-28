@@ -16,7 +16,7 @@ import managementSoftwareImg3 from "../../assets/Group 1171277301.png";
 import managementUser from "../../assets/mdi_user.png";
 import laptopBackgroundImg from "../../assets/Group 1171277295.png";
 import laptopImg from "../../assets/Group 1171276868.png";
-import 
+import circleVector from "../../assets/Vector 53.png";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
@@ -140,17 +140,20 @@ const Home = () => {
       </div>
 
       <div className="school-management">
-      <div className="uni-container">
-        <p className="management-heading">The School Management</p>
-        <p className="school-management-subheading">Source, screen, and place top talent faster with automation that works like your best recruiter.</p>
-        <div className="button-div">
-        <button className="download-app-btn">Download This App</button>
+        <div className="uni-container">
+          <p className="management-heading">The School Management</p>
+          <p className="school-management-subheading">
+            Source, screen, and place top talent faster with automation that
+            works like your best recruiter.
+          </p>
+          <div className="button-div">
+            <button className="download-app-btn">Download This App</button>
+          </div>
+          <div className="animated-laptop">
+            <img className="vector-circle-img" src={circleVector} alt="" />
+            <img className="vector-circle-laptop" src={laptopImg} alt="" />
+          </div>
         </div>
-        <div className="animated-leptop">
-          <img src={} alt="" />
-        </div>
-        <img src={} alt="" />
-      </div>
       </div>
 
       <div className="laptop-image-background">

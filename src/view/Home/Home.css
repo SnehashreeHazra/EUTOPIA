@@ -315,7 +315,7 @@
   width: 100%;
   position: relative;
   height: 80vh;
-  margin-top: 100px;
+  margin-top: 250px;
 }
 .laptop-image-background img {
   width: 100%;
@@ -354,7 +354,22 @@
   color: #fff;
   cursor: pointer;
   font-size: 15px;
- 
+}
+
+.animated-laptop {
+  width: 100%;
+  margin: 50px 0px 100px 0px;
+  position: relative;
+}
+.vector-circle-img {
+  width: 100%;
+}
+.vector-circle-laptop {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
 }
 
 /* *********************Footer CSS********************* */
