@@ -1,5 +1,8 @@
 import React from "react";
 import "./Home.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import logo from "../../assets/Eutopia-logo 1.png";
 import timeIcon from "../../assets/Group 1171277296.png";
 import solutionIcon from "../../assets/Group 1171277297.png";
@@ -21,6 +24,14 @@ import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const navigate = useNavigate();
+  const settings = {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+  };
   return (
     <div className="home">
       <div className="home-banner">
@@ -79,7 +90,7 @@ const Home = () => {
               <p>Lorem Ipsum is simply dummy text of the printing</p>
               <img className="arrow" src={whiteArrow} alt="" />
             </div>
-            <div className="platform-card-div platform-div3">
+            <div className="platform-card-div platform-div3 animated-platform">
               <img src={coinIcon} alt="" />
               <p className="platform-card-div-heading">Increase Your Revenue</p>
               <p>Lorem Ipsum is simply dummy text of the printing</p>
