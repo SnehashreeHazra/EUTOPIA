@@ -142,7 +142,10 @@ const Home = () => {
       <div className="uni-container">
         <p className="management-heading">The School Management</p>
         <p className="school-management-subheading">Source, screen, and place top talent faster with automation that works like your best recruiter.</p>
+        <div className="button-div">
         <button className="download-app-btn">Download This App</button>
+
+        </div>
       </div>
       </div>
 
