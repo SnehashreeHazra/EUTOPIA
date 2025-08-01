@@ -415,15 +415,9 @@
 }
 
 
-.back-to-school-section {
-  height: 100vh;
-  background-image: url('../../assets/Group 1171277302.png');
-  background-size: cover;
-  background-position: center;
-  margin: 80px auto;
+.back-to-school-section img{
   width: 100%;
-  max-width: 85%;
-  min-width: 85%;
+  margin: 80px 0;
 }
 
 /* *********************Footer CSS********************* */

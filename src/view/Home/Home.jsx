@@ -19,7 +19,7 @@ import managementSoftwareImg3 from "../../assets/Group 1171277301.png";
 import managementUser from "../../assets/mdi_user.png";
 import laptopBackgroundImg from "../../assets/Group 1171277295.png";
 import laptopImg from "../../assets/Group 1171276868.png";
-import circleVector from "../../assets/Vector 53.png";
+import backToSchool from "../../assets/Group 1171276887.png"
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
@@ -161,7 +161,61 @@ const Home = () => {
             <button className="download-app-btn">Download This App</button>
           </div>
           <div className="animated-laptop">
-            <img className="vector-circle-img" src={circleVector} alt="" />
+            {/* <img className="vector-circle-img" src={circleVector} alt="" /> */}
+            <svg
+              width="100%"
+              height="auto"
+              viewBox="0 0 1467 581"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle r="13" fill="#136AEF">
+                <animateMotion
+                  path="M1 578C35 405.333 202.6 50.8 601 14C731 -16.6666 1045 -14.4 1261 240C1316.33 298 1432.2 446.8 1453 578"
+                  dur="4s"
+                  begin="0s"
+                  fill="freeze"
+                  rotate="auto"
+                  repeatCount="indefinite"
+                  keyTimes="0;1;2"
+                  values="0%;100%;0%"
+                />
+              </circle>
+              {/* cx="22" cy="500" */}
+              <circle r="13"  fill="#FA5305" >
+                <animateMotion
+                  path="M1 578C35 405.333 202.6 50.8 601 14C731 -16.6666 1045 -14.4 1261 240C1316.33 298 1432.2 446.8 1453 578"
+                  dur="4s"
+                  begin="2s"
+                  fill="freeze"
+                  rotate="auto"
+                  repeatCount="indefinite"
+                  keyTimes="0;1;2"
+                  values="0%;100%;0%"
+                />
+              </circle>
+              <circle r="13" fill="#136AEF" >
+                <animateMotion
+                  path="M1 578C35 405.333 202.6 50.8 601 14C731 -16.6666 1045 -14.4 1261 240C1316.33 298 1432.2 446.8 1453 578"
+                  dur="4s"
+                  begin="1s"
+                  fill="freeze"
+                  rotate="auto"
+                  repeatCount="indefinite"
+                  keyTimes="0;1;2"
+                  values="0%;100%;0%"
+                />
+              </circle>
+              <path
+                d="M1 578C35 405.333 202.6 50.8 601 14C731 -16.6666 1045 -14.4 1261 240C1316.33 298 1432.2 446.8 1453 578"
+                stroke="#0E203A"
+              />
+              <path
+                d="M14 580C48 407.333 215.6 52.8 614 16C744 -14.6666 1058 -12.4 1274 242C1329.33 300 1445.2 448.8 1466 580"
+                stroke="#0E203A"
+              />
+            </svg>
+
             <img className="vector-circle-laptop" src={laptopImg} alt="" />
           </div>
         </div>
@@ -220,31 +274,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="back-to-school-section">
-        <div>
-          <img src="" alt="" />
-          <p>Academic</p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>Academic</p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>Academic</p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>Academic</p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>Academic</p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>Academic</p>
-        </div>
+      <div className="back-to-school-section uni-container">
+        <img src={backToSchool} alt="" />
       </div>
 
       <div className="your-opinion">
