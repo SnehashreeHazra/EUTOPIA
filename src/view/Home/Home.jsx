@@ -28,7 +28,7 @@ const Home = () => {
     dots: false,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     slidesToShow: 4,
     slidesToScroll: 1,
   };
@@ -226,6 +226,7 @@ const Home = () => {
           14,000+ Educators in 1,800 schools in 12+countries
         </p>
         <div className="opinion-cards-wrapper">
+        <Slider {...settings}>
           <div className="opinion-card1">
             <div className="opinion-user">
               <img className="opinion-user-img" src={opinionCardUser} alt="" />
@@ -277,6 +278,7 @@ const Home = () => {
           <div className="opinion-card">
             <img className="opinion-card-img" src={opinionCardImg1} alt="" />
           </div>
+          </Slider>
         </div>
       </div>
 
