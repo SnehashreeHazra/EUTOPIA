@@ -414,6 +414,18 @@
   width: 900px;
 }
 
+
+.back-to-school-section {
+  height: 100vh;
+  background-image: url('../../assets/Group 1171277302.png');
+  background-size: cover;
+  background-position: center;
+  margin: 80px auto;
+  width: 100%;
+  max-width: 85%;
+  min-width: 85%;
+}
+
 /* *********************Footer CSS********************* */
 .footer {
   background-image: url("../../assets/image (7).png");
