@@ -172,7 +172,7 @@
   justify-content: space-between;
   align-items: flex-start;
   margin: 40px 0;
-  
+
   padding: 0 15px;
   overflow-x: hidden;
   column-gap: 15px;
@@ -358,6 +358,18 @@
   left: 450px;
   width: 550px !important;
   height: 350px !important;
+  animation: platformFloatUpDown 6s ease-in-out infinite;
+}
+@keyframes platformFloatUpDown {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-20%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 .button-div {
   width: 100%;
